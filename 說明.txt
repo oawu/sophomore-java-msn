@@ -1,0 +1,20 @@
+首先
+
+1.打開server 以提供 各個client的程式 可以集中連線過來
+
+2.Server可以縮小於工具列
+
+3.打開client 先輸入 client 的名稱
+
+4.client端執行後 server即會知道 有client連線過來
+
+5.再打開一次client 以模擬第二個user使用上線
+
+6.本程式 支援 多個user使用，所以 可以多個client連線
+
+7.首先 打開 client_1 然後 去敲 client_2
+
+8.client_2則會跳出 對話視窗，此時client_2即可與client_1對話
+
+9.當關閉client時server也知道該user登出，也會通知其他client的列表作更新
+
